@@ -1,0 +1,32 @@
+{
+  "name": "fe-publish",
+  "version": "1.0.0",
+  "description": "a front-end publishing system.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.dev.tencent.com:ccfnever/fe-publish.git"
+  },
+  "keywords": [
+    "publishing system"
+  ],
+  "author": "chenchangfang@meizu.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.15"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "nodemon": "^1.18.7"
+  }
+}
